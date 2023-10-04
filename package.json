@@ -8,6 +8,9 @@
     "server": "nodemon --exec babel-node index.js",
     "start": "node index.js"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },  
   "author": "",
   "license": "ISC",
   "dependencies": {
