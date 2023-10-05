@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 4000
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: [process.env.REACT_URL1],
   optionsSuccessStatus: 200,
 };
 
