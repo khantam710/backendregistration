@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon --exec babel-node index.js",
-    "start": "node --experimental-modules index.js",
+    "start": "node index.js",
     "build": "babel src -d dist"
   },
   "engines": {
